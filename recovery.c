@@ -860,6 +860,7 @@ main(int argc, char **argv) {
     ui_init();
     ui_print(EXPAND(RECOVERY_VERSION)"\n");
     ui_print(EXPAND(RECOVERY_VERSION_INFO)"\n");
+	ui_print("for IMO S89")
     load_volume_table();
     process_volumes();
     LOGI("Processing arguments.\n");
